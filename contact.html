@@ -3,7 +3,10 @@
 	<head>
 		<title>Kayvan's Portfolio</title>
 		<meta charset="UTF-8">
-		<link rel = "stylesheet" type = "text/css" href = "assets/css/style.css"/>
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		 <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	    
 		
 	</head>
 	<body>
@@ -12,7 +15,9 @@
 				
 			<div id="name">
 					<h1>Kayvan Rahmani</h1>
-				</div>
+					<!--No idea why header doesnt follow css instruction-->
+			</div>
+			
 				<nav>	
 		  <ul>
     	<li><a href="index.html">About</a></li>
@@ -22,10 +27,13 @@
 			</header>	
 		</div>
 	
-		<div class="wrapper">
 			<div class="main">
-				<div class="maintain">
-					<h2>Contact</h2>
+			
+				<div id="maintain">
+				<div id="aboutme">
+				<div id="boxform">
+					<h1>Contact</h1>
+				</div>	
 					<hr>
 					<form>
 						<label>Name</label>
@@ -41,7 +49,8 @@
 						<textarea rows="10" cols="70"></textarea>
 						<br>
 						<div class="Button1">
-							<button type="submit">Submit</button>
+							<button type="button" class="btn btn-info">Submit</button>
+							</div>
 						</div>
 					</form>
 				</div>
@@ -56,13 +65,15 @@
  			    </a>
  			    
  			    <a href="https://stackexchange.com/users/11406032/kayvan-rahmani" target="_blank"><img src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg?v=6e4af45f4d66" alt="Stack Overflow Logo" width="100" height="75"/> 
- 			    </a>		    
+ 			    </a>		    	
  			</div>
-			</div>
 		</div>
-		<footer>
-			<hr>
-			<div class="copyright">&copy; Copyright 2017 Kayvan Rahmani</div>
+	</div>
+    
+    <div class="footer">
+		<footer>			
+			<h4>&copy; Copyright 2017 Kayvan Rahmani</h4>
 		</footer>
+			</div>
 	</body>
 </html>
